@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on wandapcguide</title>
+    <link>http://wandapcguide.github.io/post/</link>
+    <description>Recent content in Posts on wandapcguide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>wanda agustiyansyah</copyright>
+    <lastBuildDate>Sat, 16 Feb 2019 21:30:26 +0700</lastBuildDate>
+    
+	<atom:link href="http://wandapcguide.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rakit komputer 3 juta dijaman sekarang bisa apa ?</title>
+      <link>http://wandapcguide.github.io/post/rakit_komputer_3_juta/</link>
+      <pubDate>Sat, 16 Feb 2019 21:30:26 +0700</pubDate>
+      
+      <guid>http://wandapcguide.github.io/post/rakit_komputer_3_juta/</guid>
+      <description>hi guys, kembali lagi di blog ini. semoga kalian sehat selalu dan pc nya juga sehat :D , artikel ini hanyalah curhatan saya aja guys dalam merakit komputer sekaligus ini rakitan pertama saya. ya, walau masih dibantu temen juga tetapi alhamdulilah juga mantap dan puas. hasil nabung sendiri tanpa minta orang tua, rela jadi joki tugas kuliah buat nambah uang makan dikosan, dan lain sebagainya, memang bener kata guru dan dosen saya dulu kalo ngerakit hasil kerja keras sendiri itu hasil nya sangat memuaskan dari pada hasil meminta kepada orang tua.</description>
+    </item>
+    
+    <item>
+      <title>Cara mengatasi mtp tidak terdeteksi pada debian9</title>
+      <link>http://wandapcguide.github.io/post/cara_mengatasi_mtp_tidak_terdeteksi_pada_debian9/</link>
+      <pubDate>Thu, 10 May 2018 23:02:13 +0700</pubDate>
+      
+      <guid>http://wandapcguide.github.io/post/cara_mengatasi_mtp_tidak_terdeteksi_pada_debian9/</guid>
+      <description>hi guys, apa kabar ? semoga sehat selalu yah. pernah gak sih kalian mengalami ketika usb di masukan terbaca di pc yang run Debian sebagai OS nya dan ketika menyambungkan ponsel android sebagai media transfer data atau tersambung sebagai mtp devices tetapi di pc tersebut tidak terbaca bahkan tidak termount padahal terdapat notifikasi MTP pada android kita ?
+nah kali ini saya akan membagikan solusinya nih, asalkan distro yang kalian gunakan support dengan FUSE dan mungkin ada sedikit perbedaan.</description>
+    </item>
+    
+    <item>
+      <title>Konfigurasi limit ekstensi download file pada mikrotik</title>
+      <link>http://wandapcguide.github.io/post/test/</link>
+      <pubDate>Fri, 02 Mar 2018 17:05:12 +0700</pubDate>
+      
+      <guid>http://wandapcguide.github.io/post/test/</guid>
+      <description>hi guys, gimana kabar nya ? sehat kan pasti. kali ini saya akan membawakan materi atau tips untuk melimit download bedasarkan ekstensi file seperti mp3, iso, mp4, rar, zip, exe, dan berbagai macam jenis file lainya atau biasa disebut sama anak smk yaitu konfigurasi limit eksteni. yap, konfigurasi ini masih masuk kedalam bandwith management ( menurut ane ) soalnya dia membatasi packet packet yang keluar untuk mendownload file sehingga kecepatan yang dihasilkan kecil atau lelet.</description>
+    </item>
+    
+    <item>
+      <title>Cara konfigurasi bandwith management dengan queue tree pada mikrotik</title>
+      <link>http://wandapcguide.github.io/post/cara_konfigurasi_bandwith_management_dengan_queue_tree_pada_mikrotik/</link>
+      <pubDate>Fri, 02 Mar 2018 14:12:18 +0700</pubDate>
+      
+      <guid>http://wandapcguide.github.io/post/cara_konfigurasi_bandwith_management_dengan_queue_tree_pada_mikrotik/</guid>
+      <description>hi guys, gimana kabar nya ? sehat semua ya pastinya, kali ini saya akan membagi kan cara konfigurasi bandwith management dengan queue tree. kalo anak smk bilang cara setting atau konfigurasi queue tree, hal ini berguna untuk melimit paket supaya pemakain bandwith merata dan bagi yang mau hemat kuota bagi yang input nya melalui dari hotspot atau modem bisa juga :D
+jangan lupa baca juga : cara menyambungkan hotspot androi menjadi input mikrotik</description>
+    </item>
+    
+    <item>
+      <title>Fix pulse audio no sound after headset plugged</title>
+      <link>http://wandapcguide.github.io/post/fix_pulse_audio_no_sound_after_headset_plugged/</link>
+      <pubDate>Sat, 27 Jan 2018 13:14:37 +0700</pubDate>
+      
+      <guid>http://wandapcguide.github.io/post/fix_pulse_audio_no_sound_after_headset_plugged/</guid>
+      <description>hi, today i wanna tell you about fixing about how to fix pulseaudio no sound after headphone or headset plugged in. yes, i do this on debian and maybe work on your linux distro what you use now. ok, let&amp;rsquo;s into the point 1. first run this command
+cd /usr/share/pulseaudio/alsa-mixer/paths/  2. make a restore point
+sudo cp analog-output-headphones.conf analog-output-headphones.bak  3. edit this file with this command
+sudo nano analog-output-headphones.</description>
+    </item>
+    
+    <item>
+      <title>Menyambungkan hotspot ponsel ke mikrotik</title>
+      <link>http://wandapcguide.github.io/post/menyambungkan_hotspot_ponsel_ke_mikrotik/</link>
+      <pubDate>Tue, 16 Jan 2018 13:48:32 +0700</pubDate>
+      
+      <guid>http://wandapcguide.github.io/post/menyambungkan_hotspot_ponsel_ke_mikrotik/</guid>
+      <description>hi guys, gimana kabar nya semoga sehat ya. kali ini saya akan membagikan tips untuk kalian semua yang punya routerboard mikrotik dirumah tapi ndak ada ISP, bisa loh pakai hotspot HP android. baik itu root ataupun tidak sama saja. oke mari kita simak cara menyambungkan hotspot ponsel android menjadi input Mikrotik.
+bahan-bahan
+ ponsel android yang sudah support hotspot dan terinstal aplikasi termux yang bisa kalian download disini
+ routerboard mikrotik</description>
+    </item>
+    
+    <item>
+      <title>Show album art on ncmpcpp</title>
+      <link>http://wandapcguide.github.io/post/show_album_art_on_ncmpcpp/</link>
+      <pubDate>Tue, 05 Dec 2017 13:56:41 +0700</pubDate>
+      
+      <guid>http://wandapcguide.github.io/post/show_album_art_on_ncmpcpp/</guid>
+      <description>okey in this article, i wanna show you how to make your ncmpcpp look beauty like your girlfriend. that its how to show album arts on ncmpcpp, its possible to show casue you don&amp;rsquo;t need again album text statement. but, now you can look album picture when your play music on ncmpcpp.
+this my ncmpcpp 
+okey lets move into step.
+1. copy this scritp into your ~/.ncmpcpp/config
+% egrep -v &#39;^#&#39; .</description>
+    </item>
+    
+    <item>
+      <title>Cara konfigurasi ntp server</title>
+      <link>http://wandapcguide.github.io/post/cara_konfigurasi_ftp_server/</link>
+      <pubDate>Mon, 20 Nov 2017 14:35:54 +0700</pubDate>
+      
+      <guid>http://wandapcguide.github.io/post/cara_konfigurasi_ftp_server/</guid>
+      <description>hai guys, apa kabar ? semoga sehat ya. kali ini saya akan mengarhcive tugas tugas sekolah saya yaitu tentang konfigurasi debian. pada kali ini saya akan membahas tentang ntp. apa itu sih ntp ? NTP (Network Time Protocol) adalah protokol yang digunakan untuk sinkronisasi waktu di dalam sebuah jaringan, baik pada jaringan LAN (Local Area Network) maupun pada jaringan Internet. ntp sendiri menggunakan port UDP 123 untuk jalur komunikasi nya. berikut adalah cara konfigurasi ntp pada debian server kalian baik debian 5,6,7,8 kalian.</description>
+    </item>
+    
+    <item>
+      <title>[SIMPLE] Cara Konfigurasi DNS server pada debian 8</title>
+      <link>http://wandapcguide.github.io/post/cara_konfigurasi_dns_server_simple/</link>
+      <pubDate>Mon, 20 Nov 2017 14:24:40 +0700</pubDate>
+      
+      <guid>http://wandapcguide.github.io/post/cara_konfigurasi_dns_server_simple/</guid>
+      <description>hai guys, apa kabar ? semoga sehat ya. kali ini saya akan mengarhcive tugas tugas sekolah saya yaitu tentang konfigurasi debian. pada kali ini saya akan membahas tentang dns atau domain name server. DNS (Domain Name Server) adalah server yang digunakan untuk mengetahui IP Address suatu host lewat host name-nya. jadi kalian jika ingin ke sebuah situs kalian tidak perlu mengetik ip nya tetapi cukup dengan namanya saja, facebook(.)com misalkan. oke inilah cara untuk mengkonfigurasi dns pada debian 5, 6, 7, 8 ikuti langkah dibawah ini.</description>
+    </item>
+    
+    <item>
+      <title>Cara membuka situs terblokir disekolah atau tempat umum</title>
+      <link>http://wandapcguide.github.io/post/cara_membuka_situs_terblokir_disekolah_atau_tempat_umum/</link>
+      <pubDate>Mon, 13 Nov 2017 14:43:55 +0700</pubDate>
+      
+      <guid>http://wandapcguide.github.io/post/cara_membuka_situs_terblokir_disekolah_atau_tempat_umum/</guid>
+      <description>halo guys, gimana kabar nya ? semoga sehat semua ya. kemaren saya praktek di salah satu lab komputer di sekolah saya dan ternyata ada beberapa situs yang terblokir salah satu nya youtube. mungkin biar siswa nya tidak surfing yang lain agar bisa mengikuti KBM dengan baik, nah kali ini saya akan memberikan trik nya untuk membukan nya atau membuka situs yang terblokir di sekolah atau tempat umum. ingat hal ini hanya untuk proses pembelajaran dan pengetahuan jangan buka jangan buka youtube waktu KBM di lab ya.</description>
+    </item>
+    
+    <item>
+      <title>Connect wifi on linux throught terminal</title>
+      <link>http://wandapcguide.github.io/post/connect_wifi_on_linux_throught_terminal/</link>
+      <pubDate>Sun, 05 Nov 2017 14:49:56 +0700</pubDate>
+      
+      <guid>http://wandapcguide.github.io/post/connect_wifi_on_linux_throught_terminal/</guid>
+      <description>hi sobat, apa kabar ? semoga sehat semua ya. oke malam ini saya akan memberikan tips tentang menghubungkan wifi atau connect wifi melalui terminal dengan cara yang simple pastinya. hal ini berguna ketika anda sedang menggunakan linux kalian pada mode TTY atau non-gui atau bahkan gui tapi menggunakan window manager tanpa ada tray icon wifi alias tidak menginstall panel seperti tint2, gnome-panel, dll. oke berikut langkah nya.
+1. pada TTY mode atau terminal ketikan teks di bawah ini</description>
+    </item>
+    
+    <item>
+      <title>How to configure lemonbar</title>
+      <link>http://wandapcguide.github.io/post/how_to_configure_lemonbar/</link>
+      <pubDate>Sat, 28 Oct 2017 14:56:24 +0700</pubDate>
+      
+      <guid>http://wandapcguide.github.io/post/how_to_configure_lemonbar/</guid>
+      <description>today, i wanna tell you how to configuration lemonbar or lemonbar configruation. lemonbar (formerly known as bar) is a lightweight bar entirely based on XCB. Provides full UTF-8 support, basic formatting, RandR and Xinerama support and EWMH compliance without wasting your precious memory. so lets begin.
+to install lemonbar and load font on lemonbar you can go here &amp;gt; remember lemonbar is statusbar, not panel. so, its not any taskbar. just print the output.</description>
+    </item>
+    
+    <item>
+      <title>Solved fix acer touchpad ES14 411 after install windows 10</title>
+      <link>http://wandapcguide.github.io/post/solved_fix_acer_touchpad_es14_411_after_install_win10/</link>
+      <pubDate>Fri, 13 Oct 2017 15:11:21 +0700</pubDate>
+      
+      <guid>http://wandapcguide.github.io/post/solved_fix_acer_touchpad_es14_411_after_install_win10/</guid>
+      <description>hi guys tonight i will tell you about how to fix touchpad acer Aspire E14 ES1-411 after install windows 10. becasue this laptop is not supported on windows 7 ( i think ) , so i installed windows 10 and after that i got an error on touchpad and some combination keyboard shortcut like fn+f7 and on BIOS not any configuration about that touchpad. so i want to show you how think work out, let&amp;rsquo;s check this out.</description>
+    </item>
+    
+    <item>
+      <title>Cara mempercepat shutdown di windows 8, 8.1, dan 10</title>
+      <link>http://wandapcguide.github.io/post/cara_mempercepat_shutdown_di_windows_8_10/</link>
+      <pubDate>Fri, 29 Sep 2017 21:15:00 +0700</pubDate>
+      
+      <guid>http://wandapcguide.github.io/post/cara_mempercepat_shutdown_di_windows_8_10/</guid>
+      <description>hi guys, di waktu senggang ini saya akan berbagi tips tentang windows nih. yaps bagi para pengguna laptop dan pengguna os windows 8 dan 10 terasa gak sih kalo shutdown lampu indikator nya lama banget mati nya setelah laptop tersebut menjalankan perintah shutdown melalui gui atau alt+f4 ?. karena di windows seri ini perangkat tidak mati atau off dengan sempurna. maka dari itu setelah shutdown kadang lampu indikator masih cepat menyala.</description>
+    </item>
+    
+    <item>
+      <title>How to install 2BWM</title>
+      <link>http://wandapcguide.github.io/post/how_to_install_2bwm/</link>
+      <pubDate>Sun, 25 Dec 2016 13:14:37 +0700</pubDate>
+      
+      <guid>http://wandapcguide.github.io/post/how_to_install_2bwm/</guid>
+      <description>hi guys. now, i wanna update my tutorial about 2bwm. maybe you little bit confusion about tutorial how to install 2bwm especially on ubuntu. now, i wanna change into easy step. this is how to install 2bwm, lets follow!
+1. Installing library
+ xcb-randr: libxcb-randr0-dev
+xcb-ewmh: libxcb-ewmh-dev
+xcb-icccm: libxcb-icccm4-dev
+xcb-keysyms: libxcb-keysyms1-dev
+xcb-xrm: lets follow bellow
+ sudo add-apt-repository ppa:aguignard/ppa sudo apt-get update sudo apt-get install libxcb-xrm-dev   optional: gcc</description>
+    </item>
+    
+  </channel>
+</rss>
