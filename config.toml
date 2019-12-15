@@ -1,4 +1,4 @@
-baseURL = "http://wandapcguide.com/"
+baseURL = "http://wandapcguide.github.io"
 languageCode = "en-us"
 title = "wandapcguide.com"
 
@@ -26,7 +26,8 @@ contentDir   = "content"
 
   # Default theme "light" or "dark"
   defaultTheme = "dark"
-
+  #comment 
+  disqusShortname = "wandapcguide"
 [languages]
   [languages.en]
     title = "wandapcguide"
