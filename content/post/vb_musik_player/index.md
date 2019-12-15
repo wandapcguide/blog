@@ -18,3 +18,4 @@ and its to much lack on this project like <br>
 4. if you press pause button and want to play the song again to the current point. you must hit the play button, its meant cannot resume from current point.
 <br><br>
 if you like to fix one of the point which is i described above, just do it. and i will happy if you like my work, :D
+
