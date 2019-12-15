@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="today, i wanna tell you how to configuration lemonbar or lemonbar configruation. lemonbar (formerly known as bar) is a lightweight bar entirely based on XCB. Provides full UTF-8 support, basic formatting, RandR and Xinerama support and EWMH compliance without wasting your precious memory. so lets begin.
+to install lemonbar and load font on lemonbar you can go here &amp;gt; remember lemonbar is statusbar, not panel. so, its not any taskbar. just print the output." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="http://wandapcguide.github.io/post/how_to_configure_lemonbar/" />
+
+
+    <title>
+        
+            How to configure lemonbar :: wandapcguide 
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.min.73f55a8d452be4a71b2960620b80252cf69abd84d63fe7501abf0a39b1a70a78.css">
+
+
+
+
+<meta itemprop="name" content="How to configure lemonbar">
+<meta itemprop="description" content="today, i wanna tell you how to configuration lemonbar or lemonbar configruation. lemonbar (formerly known as bar) is a lightweight bar entirely based on XCB. Provides full UTF-8 support, basic formatting, RandR and Xinerama support and EWMH compliance without wasting your precious memory. so lets begin.
+to install lemonbar and load font on lemonbar you can go here &gt; remember lemonbar is statusbar, not panel. so, its not any taskbar. just print the output.">
+
+
+<meta itemprop="datePublished" content="2017-10-28T14:56:24&#43;07:00" />
+<meta itemprop="dateModified" content="2017-10-28T14:56:24&#43;07:00" />
+<meta itemprop="wordCount" content="966">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://wandapcguide.github.io"/>
+
+<meta name="twitter:title" content="How to configure lemonbar"/>
+<meta name="twitter:description" content="today, i wanna tell you how to configuration lemonbar or lemonbar configruation. lemonbar (formerly known as bar) is a lightweight bar entirely based on XCB. Provides full UTF-8 support, basic formatting, RandR and Xinerama support and EWMH compliance without wasting your precious memory. so lets begin.
+to install lemonbar and load font on lemonbar you can go here &gt; remember lemonbar is statusbar, not panel. so, its not any taskbar. just print the output."/>
+
+
+
+
+
+    <meta property="article:published_time" content="2017-10-28 14:56:24 &#43;0700 &#43;0700" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd /home/wanda_blog</span>
+            <span class="logo__cursor" style=""></span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="http://wandapcguide.github.io/about">About</a></li><li><a href="http://wandapcguide.github.io/post">Blog</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="http://wandapcguide.github.io/post/how_to_configure_lemonbar/">How to configure lemonbar</a></h2>
+
+            
+
+            <div class="post-content">
+                <p>today, i wanna tell you how to configuration lemonbar or lemonbar configruation. lemonbar (formerly known as bar) is a lightweight bar entirely based on XCB. Provides full UTF-8 support, basic formatting, RandR and Xinerama support and EWMH compliance without wasting your precious memory. so lets begin.</p>
+
+<p>to install lemonbar and load font on lemonbar you can go here &gt; <img src="/post/how_to_install_n_load_font_on_lemonbar" alt="installing lemonbar and load font on lemonbar" /></p>
+
+<p>remember lemonbar is statusbar, not panel. so, its not any taskbar. just print the output.</p>
+
+<p>we wanna fetching information about :
+1. date
+2. ssid of wifi
+3. batery
+4. sound level
+5. clock
+6. window active status
+7. music
+8. icon for this item</p>
+
+<p>1. fetching the date</p>
+
+<p>we would use date command to print out that</p>
+
+<pre><code>date '+%d %b' #this print day number of the month and month
+</code></pre>
+
+<p>2. ssid of wifi</p>
+
+<p>we would use iwgetid command to make simply setup but powerfull. let&rsquo;s se bellow</p>
+
+<pre><code>iwgetid -r  # it just print the ssid no other
+</code></pre>
+
+<p>3. battery</p>
+
+<p>its important to avoid the low battery status and urged you to chare your laptop. i use acpi command to make it simple</p>
+
+<pre><code>acpi | cut -d, -f2 #its only  print battery level
+</code></pre>
+
+<p>4. sound level</p>
+
+<p>sound level can print into two type of output. can be proggesbar and can be text. if you wanna proggressbar use mkb and if you want text lets follow me.
+we use amixer command.</p>
+
+<pre><code>amixer get master | grep &quot;Front Left:&quot; | awk '{print $5}' | cut -d [ -f2 | cut -d ] -f1 # its only print sound level
+</code></pre>
+
+<p>5. clock</p>
+
+<p>as same as with date we use date command</p>
+
+<pre><code>date '+%H:%M'
+</code></pre>
+
+<p>6. window active status</p>
+
+<p>window active status only print the name of focused window not like panel clickable and print the name. we use xdotool command</p>
+
+<pre><code>xdotool getwindowfocus getwindowname
+</code></pre>
+
+<p>7. music</p>
+
+<p>we use mpd and mpc command to print the listening music status</p>
+
+<pre><code>mpc -p 6601 -f &quot;%artist% &gt;&gt; %title%&quot; | head -1
+</code></pre>
+
+<p>8. icon for this item</p>
+
+<p>you must install siji font to get icon for this ouput and to make more beautiful setup of bar.
+if you already install that font let&rsquo;s follow</p>
+
+<p>run this command to get the glymphes code</p>
+
+<pre><code>xfd -fa Siji
+</code></pre>
+
+<p>and choose icon what you want to print at your bar setup for example:
+the glymphes code of music icon is : 0x00e05c to print on the bar just run like this</p>
+
+<pre><code>echo -e &quot;\ue05c&quot; | lemonbar -f &quot;Siji-8&quot; -p #this print with bar standalone not fetch with all
+</code></pre>
+
+<p><br>
+<strong>PRINT THEM ALL ONLY WITH LEMONBAR</strong></p>
+
+<p>this setup will be eat more reosources of ram, coz you will run two lemonbar to get bar on right and left. but, not much eat resource. on this setup we would use bash script, if statement, case statement, while true do, and function like a C. oke let&rsquo;s follow.</p>
+
+<p>make bash script like this
+1. for status item of lemonbar</p>
+
+<pre><code>$vim statusquh
+
+#!/bin/bash
+#arg
+#ndow=&quot;$(xdotool get_desktop | grep 0)&quot;
+#inf=&quot;$(mpc -p 6601 -f &quot;%artist%&quot; | head -1 | wc -l)&quot;
+#wifikek='iwgetid -r | wc -l'
+#bat='acpi -i | head -1 | cut -d, -f1 | cut -d: -f2 | sed 's/ //g' | grep &quot;Charging&quot; | wc -l'
+
+
+case $1 in
+
+ window)
+ ndow=`xdotool get_desktop | wc -l`
+ if [ $ndow -eq 1 ]; then
+ xdotool getwindowfocus getwindowname
+ fi
+ ;;
+
+ musik)
+ inf=`mpc -p 6601 -f &quot;%artist%&quot; | head -1 | wc -l`
+ if [ $inf -eq 1 ]; then
+ mpc -p 6601 -f &quot;%artist% &gt;&gt; %title%&quot; | head -1
+ else
+ echo not playing
+ fi
+ ;;
+
+ volume)
+ amixer get Master | grep &quot;Front Left:&quot; | awk '{print $5}' | cut -d [ -f2 | cut -d ] -f1
+ ;;
+
+ wifi)
+ wifiqu=`iwgetid | wc -l`
+ if [ $wifiqu -eq 0 ]; then
+ echo &quot;off&quot;
+ else
+ iwgetid -r
+ fi
+ ;;
+
+ infobat)
+ bat=`acpi -i | head -1 | cut -d, -f1 | cut -d: -f2 | sed 's/ //g' | grep &quot;Charging&quot; | wc -l`
+ if [ $bat -eq 1 ]; then
+ echo &quot;Charging&quot;
+ else
+ echo &quot;Discharging&quot;
+ fi
+ ;;
+
+ desktop)
+ des=`xdotool get_desktop | wc -l`
+ if [ $des -eq 1 ]; then
+ xdotool get_desktop
+ fi
+ ;;
+
+ batre)
+ acpi | cut -d, -f2
+ ;;
+
+ jam)
+ date '+%H:%M'
+ ;;
+
+ tanggal)
+ date '+%d %b'
+ ;;
+
+esac
+</code></pre>
+
+<blockquote>
+<p>save this code and move into /usr/local/bin/ with this command</p>
+
+<pre><code> sudo mv statusquh /usr/local/bin
+</code></pre>
+</blockquote>
+
+<p>2. now then, for left lemonbar</p>
+
+<pre><code>$vim kiri
+
+#!/bin/bash
+
+#colour
+red=&quot;#D24D57&quot;
+case $1 in
+semua)
+nda() {
+    echo -e &quot;\ue0b1&quot; &amp;&amp; statusquh window
+}
+
+ndi() {
+    echo -e &quot;\ue224&quot; &amp;&amp; statusquh infobat
+}
+
+ndu() {
+    echo -e &quot;\ue10f&quot; &amp;&amp; statusquh wifi
+}
+
+nde() {
+    echo -e &quot;\ue107&quot; &amp;&amp; echo Hana
+}
+
+while :; do
+kok=&quot;$(nda)&quot;
+kek=&quot;$(ndi)&quot;
+kuk=&quot;$(ndu)&quot;
+kik=&quot;$(nde)&quot;
+
+echo $kok $kek $kuk $kik
+sleep 1
+done
+;;
+esac
+</code></pre>
+
+<blockquote>
+<p>save it, and move into /usr/local/bin</p>
+</blockquote>
+
+<p>3. and this for right lemonbar</p>
+
+<pre><code>$vim kanan
+
+#!/bin/bash
+
+#colour
+red=&quot;#D24D57&quot;
+case $1 in
+semua)
+nda() {
+    echo &quot;%{F$red}TGL:%{F-}&quot; &amp;&amp; statusquh tanggal
+}
+
+ndi() {
+    echo &quot;%{F$red}JAM:%{F-}&quot; &amp;&amp; statusquh jam
+}
+
+ndu() {
+    echo &quot;%{F$red}VOL:%{F-}&quot; &amp;&amp; statusquh volume
+}
+
+nde() {
+    echo &quot;%{F$red}BAT:%{F-}&quot; &amp;&amp; statusquh batre
+}
+
+while :; do
+kok=&quot;$(nda)&quot;
+kek=&quot;$(ndi)&quot;
+kuk=&quot;$(ndu)&quot;
+kik=&quot;$(nde)&quot;
+
+echo $kok $kek $kuk $kik
+sleep 1
+done
+;;
+esac
+</code></pre>
+
+<blockquote>
+<p>save it and move into /usr/local/bin</p>
+</blockquote>
+
+<p>5. for lemonbar to print out that</p>
+
+<pre><code>$vim barkiri
+
+#!/bin/bash
+kiri semua | lemonbar -p -f &quot;Clean-10&quot; -f &quot;Siji-8&quot; -g 1366x24
+
+save it and move into /usr/local/bin
+
+6. for second lemonbar to print out that
+
+$vim barkanan
+
+#!/bin/bash
+kanan semua | lemonbar -p -f &quot;Clean-10&quot; -g 250x24+1116+0
+
+7. testing time !
+for testing. run kiri and kanan like this
+
+$barkiri
+$barkanan
+</code></pre>
+
+<p>the result is like this</p>
+
+<p><center><img class="special-img-class" src="/conf-lemonbar/1.png" /></center></p>
+
+<p>if you want find much more about lemonbar configuration or my dotfile just visit my github page &gt; dante08
+oke, i hope you can do about configuration lemonbar. only that for me, littlebit about lemonbar especialy about lemonbar configuration. so thank you much.</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+  			</div>
+
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2019</span>
+            
+            <span>wanda agustiyansyah</span>
+            <span> <a href="http://wandapcguide.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/rhazdon">rhazdon</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.2d5469329143160ae2456a69c3c76dc2d0a3b212b46afe291a51bd68650ed6f8697e001dab54f1c272c77ce08092a8c55e5bb4314e0ee334aab4b927ec896638.js" integrity="sha512-LVRpMpFDFgriRWppw8dtwtCjshK0av4pGlG9aGUO1vhpfgAdq1TxwnLHfOCAkqjFXlu0MU4O4zSqtLkn7IlmOA=="></script>
+
+
+
+    </body>
+</html>
