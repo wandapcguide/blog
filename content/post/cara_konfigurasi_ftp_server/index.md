@@ -2,6 +2,7 @@
 title: "Cara konfigurasi ntp server"
 date: 2017-11-20T14:35:54+07:00
 draft: false
+comments: true
 ---
 
 hai guys, apa kabar ? semoga sehat ya. kali ini saya akan mengarhcive tugas tugas sekolah saya yaitu tentang konfigurasi debian. pada kali ini saya akan membahas tentang ntp. apa itu sih ntp ? NTP (Network Time Protocol) adalah protokol yang digunakan untuk sinkronisasi waktu di dalam sebuah jaringan, baik pada jaringan LAN (Local Area Network) maupun pada jaringan Internet. ntp sendiri menggunakan port UDP 123 untuk jalur komunikasi nya. berikut adalah cara konfigurasi ntp pada debian server kalian baik debian 5,6,7,8 kalian. 

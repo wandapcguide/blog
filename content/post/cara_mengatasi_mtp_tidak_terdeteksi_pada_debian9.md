@@ -2,6 +2,7 @@
 title: "Cara mengatasi mtp tidak terdeteksi pada debian9"
 date: 2018-05-10T23:02:13+07:00
 draft: false
+comments: true
 ---
 hi guys, apa kabar ? semoga sehat selalu yah. pernah gak sih kalian mengalami ketika usb di masukan terbaca di pc yang run Debian sebagai OS nya dan ketika menyambungkan ponsel android sebagai media transfer data atau tersambung sebagai mtp devices tetapi di pc tersebut tidak terbaca bahkan tidak termount padahal terdapat notifikasi MTP pada android kita ?
 

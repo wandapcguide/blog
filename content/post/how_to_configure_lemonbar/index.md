@@ -2,6 +2,7 @@
 title: "How to configure lemonbar"
 date: 2017-10-28T14:56:24+07:00
 draft: false
+comments: true
 ---
 
 today, i wanna tell you how to configuration lemonbar or lemonbar configruation. lemonbar (formerly known as bar) is a lightweight bar entirely based on XCB. Provides full UTF-8 support, basic formatting, RandR and Xinerama support and EWMH compliance without wasting your precious memory. so lets begin.

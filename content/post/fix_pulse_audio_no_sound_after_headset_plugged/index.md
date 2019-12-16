@@ -2,6 +2,7 @@
 title: "Fix pulse audio no sound after headset plugged"
 date: 2018-01-27T13:14:37+07:00
 draft: false
+comments: true
 ---
 
 hi, today i wanna tell you about fixing about how to fix pulseaudio no sound after headphone or headset plugged in. yes, i do this on debian and maybe work on your linux distro what you use now. ok, let's into the point

@@ -2,6 +2,7 @@
 title: "Cara konfigurasi bandwith management dengan queue tree pada mikrotik"
 date: 2018-03-02T14:12:18+07:00
 draft: false
+comments: true
 ---
 
 hi guys, gimana kabar nya ? sehat semua ya pastinya, kali ini saya akan membagi kan cara konfigurasi bandwith management dengan queue tree. kalo anak smk bilang cara setting atau konfigurasi queue tree, hal ini berguna untuk melimit paket supaya pemakain bandwith merata dan bagi yang mau hemat kuota bagi yang input nya melalui dari hotspot atau modem bisa juga :D

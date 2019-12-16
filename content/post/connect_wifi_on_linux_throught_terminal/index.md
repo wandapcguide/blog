@@ -2,6 +2,7 @@
 title: "Connect wifi on linux throught terminal"
 date: 2017-11-05T14:49:56+07:00
 draft: false
+comments: true
 ---
 
 hi sobat, apa kabar ? semoga sehat semua ya. oke malam ini saya akan memberikan tips tentang menghubungkan wifi atau connect wifi melalui terminal dengan cara yang simple pastinya. hal ini berguna ketika anda sedang menggunakan linux kalian pada mode TTY atau non-gui atau bahkan gui tapi menggunakan window manager tanpa ada tray icon wifi alias tidak menginstall panel seperti tint2, gnome-panel, dll. oke berikut langkah nya.

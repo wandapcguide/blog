@@ -2,6 +2,7 @@
 title: "Konfigurasi limit ekstensi download file pada mikrotik"
 date: 2018-03-02T17:05:12+07:00
 draft: false
+comments: true
 ---
 
 hi guys, gimana kabar nya ? sehat kan pasti. kali ini saya akan membawakan materi atau tips untuk melimit download bedasarkan ekstensi file seperti mp3, iso, mp4, rar, zip, exe, dan berbagai macam jenis file lainya atau biasa disebut sama anak smk yaitu konfigurasi limit eksteni. yap, konfigurasi ini masih masuk kedalam bandwith management ( menurut ane ) soalnya dia membatasi packet packet yang keluar untuk mendownload file sehingga kecepatan yang dihasilkan kecil atau lelet.

@@ -2,6 +2,7 @@
 title: "[SIMPLE] Cara Konfigurasi DNS server pada debian 8"
 date: 2017-11-20T14:24:40+07:00
 draft: false
+comments: true
 ---
 
 hai guys, apa kabar ? semoga sehat ya. kali ini saya akan mengarhcive tugas tugas sekolah saya yaitu tentang konfigurasi debian. pada kali ini saya akan membahas tentang dns atau domain name server. DNS (Domain Name Server) adalah server yang digunakan untuk mengetahui IP Address suatu host lewat host name-nya. jadi kalian jika ingin ke sebuah situs kalian tidak perlu mengetik ip nya tetapi cukup dengan namanya saja, facebook(.)com misalkan. oke inilah cara untuk mengkonfigurasi dns pada debian 5, 6, 7, 8 ikuti langkah dibawah ini.

@@ -2,6 +2,7 @@
 title: "Rakit komputer 3 juta dijaman sekarang bisa apa ?"
 date: 2019-02-16T21:30:26+07:00
 draft: false
+comments: true
 ---
 
 hi guys, kembali lagi di blog ini. semoga kalian sehat selalu dan pc nya juga sehat :D , artikel ini hanyalah curhatan saya aja guys dalam merakit komputer sekaligus ini rakitan pertama saya. ya, walau masih dibantu temen juga tetapi alhamdulilah juga mantap dan puas. hasil nabung sendiri tanpa minta orang tua, rela jadi joki tugas kuliah buat nambah uang makan dikosan, dan lain sebagainya, memang bener kata guru dan dosen saya dulu kalo ngerakit hasil kerja keras sendiri itu hasil nya sangat memuaskan dari pada hasil meminta kepada orang tua.

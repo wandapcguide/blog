@@ -2,6 +2,7 @@
 title: "Menyambungkan hotspot ponsel ke mikrotik"
 date: 2018-01-16T13:48:32+07:00
 draft: false
+comments: true
 ---
 
 hi guys, gimana kabar nya semoga sehat ya. kali ini saya akan membagikan tips untuk kalian semua yang punya routerboard mikrotik dirumah tapi ndak ada ISP, bisa loh pakai hotspot HP android. baik itu root ataupun tidak sama saja. oke mari kita simak cara menyambungkan hotspot ponsel android menjadi input Mikrotik.

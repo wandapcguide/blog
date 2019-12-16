@@ -2,6 +2,7 @@
 title: "Cara mempercepat shutdown di windows 8, 8.1, dan 10"
 date: 2017-09-29T21:15:00+07:00
 draft: false
+comments: true
 ---
 
 hi guys, di waktu senggang ini saya akan berbagi tips tentang windows nih. yaps bagi para pengguna laptop dan pengguna os windows 8 dan 10 terasa gak sih kalo shutdown lampu indikator nya lama banget mati nya setelah laptop tersebut menjalankan perintah shutdown melalui gui atau alt+f4 ?. karena di windows seri ini perangkat tidak mati atau off dengan sempurna. maka dari itu setelah shutdown kadang lampu indikator masih cepat menyala. oke dari pada penasaran mari ikuti langkah dibawah ini untuk mengatur nya agar shutdown lebih cepat.

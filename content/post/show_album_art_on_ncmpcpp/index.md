@@ -2,6 +2,7 @@
 title: "Show album art on ncmpcpp"
 date: 2017-12-05T13:56:41+07:00
 draft: false
+comments: true
 ---
 
 okey in this article, i wanna show you how to make your ncmpcpp look beauty like your girlfriend. that its how to show album arts on ncmpcpp, its possible to show casue you don't need again album text statement. but, now you can look album picture when your play music on ncmpcpp.

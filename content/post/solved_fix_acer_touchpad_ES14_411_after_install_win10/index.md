@@ -2,6 +2,7 @@
 title: "Solved fix acer touchpad ES14 411 after install windows 10"
 date: 2017-10-13T15:11:21+07:00
 draft: false
+comments: true
 ---
 
 hi guys tonight i will tell you about how to fix touchpad acer Aspire E14 ES1-411 after install windows 10. becasue this laptop is not supported on windows 7 ( i think ) , so i installed windows 10 and after that i got an  error on touchpad and some combination keyboard shortcut like fn+f7 and on BIOS not any configuration about that touchpad. so i want to show you how think work out, let's check this out.
