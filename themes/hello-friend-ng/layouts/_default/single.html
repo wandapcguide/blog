@@ -54,5 +54,10 @@
       		    {{ partial "comments.html" . }}
       		</div>
         {{ end }}
+	{{ if .Params.GoogleAnalytic }}
+	<div id="GoogleAnalytic">
+		{{ template "_default/analytic.html" . }}
+	</div>
+	{{ end}}
     </main>
 {{ end }}

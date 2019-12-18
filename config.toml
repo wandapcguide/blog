@@ -6,7 +6,7 @@ baseurl = "/"
 theme = "hello-friend-ng"
 
 contentDir   = "content"
-
+googleAnalytics = "UA-154716895-1"
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
