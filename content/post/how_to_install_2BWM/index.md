@@ -2,7 +2,7 @@
 title: "How to install 2BWM"
 date: 2016-12-25T13:14:37+07:00
 draft: false
-comments = true
+comments: true
 ---
 
 hi guys. now, i wanna update my tutorial about 2bwm. maybe you little bit confusion about tutorial how to install 2bwm especially on ubuntu. now, i wanna change into easy step. this is how to install 2bwm, lets follow!
