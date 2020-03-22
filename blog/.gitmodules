@@ -2,7 +2,3 @@
 	path = public
 	url = https://github.com/wandapcguide/wandapcguide.github.io.git
 	branch = master
-[submodule "blog"]
-	path = blog
-	url = https://github.com/wandapcguide/blog.git
-	branch = master
