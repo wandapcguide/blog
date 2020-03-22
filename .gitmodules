@@ -6,7 +6,3 @@
 	path = blog
 	url = https://github.com/wandapcguide/blog.git
 	branch = master
-[submodule "wandapcguide.github.io"]
-	path = wandapcguide.github.io
-	url = https://github.com/wandapcguide/wandapcguide.github.io.git
-	branch = master
