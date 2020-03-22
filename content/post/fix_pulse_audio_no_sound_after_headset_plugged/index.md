@@ -6,19 +6,19 @@ comments: true
 ---
 
 hi, today i wanna tell you about fixing about how to fix pulseaudio no sound after headphone or headset plugged in. yes, i do this on debian and maybe work on your linux distro what you use now. ok, let's into the point
-<p>1. first run this command</p>
+1. first run this command
 
 ```
 cd /usr/share/pulseaudio/alsa-mixer/paths/
 ```
 
-<p>2. make a restore point</p>
+2. make a restore point
 
 ```
 sudo cp analog-output-headphones.conf analog-output-headphones.bak
 ```
 
-<p>3. edit this file with this command</p>
+3. edit this file with this command
 
 ```
 sudo nano analog-output-headphones.conf
@@ -32,12 +32,12 @@ switch = on
 volume = ignore
 ```
 
-<p>4. now make restore point again for fixed configuration</p>
+4. now make restore point again for fixed configuration
 
 ```
 sudo cp analog-output-headphones.conf analog-output-headphones.fixed
 ```
 
-<p>5. and reboot</p>
+5. and reboot
 
 okey, this is how to fix pulseaudio no sound after headphone or headset plugged in. i hope this method work perfectly on your distro. any question ? leave command below. and i will say thanks ! 

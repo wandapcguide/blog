@@ -9,7 +9,7 @@ comments: true
 hi guys, today i wanna share my work about vb project. cause i got a homework to create a project with vb and i use vb2010, to creating my project. like the title on this artikel, i made music player
 
 oke, the main feature is same like another music player. but i made the button by myself, and dialog from WMP is disappear. if you interest with my project click this link below <br>
-<a href="https://github.com/Dante08/simple-music-player-vb10" >Visit to this repo</a> <br>
+[Visit this link](https://github.com/Dante08/simple-music-player-vb10)
 <br>
 and its to much lack on this project like <br>
 1. song info didnt update automaticly, you must press randomly on keyboard after you change the song and or play song firstly<br>

@@ -31,7 +31,7 @@ A. pada ponsel Android
 
 4. ketikan ifconfig di termux nya dan lihat ip di interface wlan0 seperti ini gambar ini
 
-<center><img class="special-img-class" src="/hotspot2mikrotik/1.png" height="1000" width="500" /></center>
+{{< image src="/hotspot2mikrotik/1.png" alt="Hello Friend" position="center" style="border-radius: 8px;" >}}
 
 <p>5. jika sudah tahu, ingat ingat ya ip hotspot nya. </p>
 
@@ -86,6 +86,6 @@ ip dns set server=8.8.8.8,8.8.4.4. allow-remote-request=yes
 ip route add gateway=ip hotspot td misal 192.168.43.1 (cara ngecek nya dari android pakek termux terus ketik ifconfig dan liat bagian wlan0)
 
 dan untuk hasil nya seperti ini
-<center><img class="special-img-class" src="/hotspot2mikrotik/2.png" /></center>
+{{< image src="/hotspot2mikrotik/1.png" alt="Hello Friend" position="center" style="border-radius: 8px;" >}}
 
 gimana guys, mudah kan  ? dari pada router nganggur mending lanjut oprek aja kasian dianggurin hehe. oke apabila ada salah salah kata mohon maaf, yang ingin ditanyakan silakan berkomentar dibawah ini.  sekian terimakasih. semoga bermanfaat

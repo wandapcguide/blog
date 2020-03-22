@@ -9,15 +9,15 @@ halo guys, gimana kabar nya ? semoga sehat semua ya. kemaren saya praktek di sal
 1. pertama buka google lalu ketikan proxy
 2. lalu pilih site atau situs seperti gambar dibawah ini
 
-<center><img class="special-img-class" src="/buka-situs/1.png" /></center>
+{{< image src="/buka-situs/1.png" position="center" style="border-radius: 8px;" >}}
 
-<p>3. lalu klik dan jika sudah masuk di dalam site nya silakan klik youtube seperti ini</p>
+3. lalu klik dan jika sudah masuk di dalam site nya silakan klik youtube seperti ini
 
-<center><img class="special-img-class" src="/buka-situs/2.png" /></center>
+{{< image src="/buka-situs/2.png" position="center" style="border-radius: 8px;" >}}
 
-<p>4. otomatis youtube akan terbuka, kurang lebih interface youtube nya seperti ini.</p>
+4. otomatis youtube akan terbuka, kurang lebih interface youtube nya seperti ini.
 
-<center><img class="special-img-class" src="/buka-situs/3.png" /></center>
+{{< image src="/buka-situs/3.png" position="center" style="border-radius: 8px;" >}}
 
 dan tara.. anda telah bisa ber youtube ria, selain youtube anda bisa membuka situs yang di blokir lain nya seperti facebook, reddit, imgur, pornhub, dll. karena secara logis anda menggunakan jalan lain atau tidak menerobos sehingga anda tidak terkena di jalan tersebut kira kira seperti itu gambaran logis nya. baik semoga bermanfaat, dan jangan menggunakan nya berlebihan. sekian terimakasih.
 

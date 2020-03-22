@@ -9,18 +9,18 @@ kali ini aku akan berbagi removeWAT nih, apa sih itu removewat? singkat aja ya r
 <br>
 
 bahan :
-download removewat <a href="http://ay.gy/1njqEm">Disini</a>
+download removewat [Disini](http://ay.gy/1njqEm)
 password rar : windows
 
 caranya :
-<p>1. ekstrak berkas yang kalian download</p>
-<p>2. jalankan removewat nya</p>
-<p>3. jika sudah dijalankan tekan tekan bacaan removeWAT seperti gambar dibawah ini</p>
-<center><img class="special-img-class" src="/removewat/1.png" /></center>
-<p>4. lalu klik yes </p>
-<center><img class="special-img-class" src="/removewat/2.png" /></center>
-<p>5. jika ada popup victim software close atau ok aja</p>
-<p>6. jika layar black screen dan hanya tinggal window dari removeWAT atau winRAR biarkan saja dan tunggu ada bacaan installation complete blabla. please, press ok to reboot! dan baru kalian klik ok.</p>
+1. ekstrak berkas yang kalian download
+2. jalankan removewat nya
+3. jika sudah dijalankan tekan tekan bacaan removeWAT seperti gambar dibawah ini
+{{< image src="/removewat/1.png" position="center" style="border-radius: 8px;" >}}
+4. lalu klik yes 
+{{< image src="/removewat/2.png" position="center" style="border-radius: 8px;" >}}
+5. jika ada popup victim software close atau ok aja
+6. jika layar black screen dan hanya tinggal window dari removeWAT atau winRAR biarkan saja dan tunggu ada bacaan installation complete blabla. please, press ok to reboot! dan baru kalian klik ok.
 <br>
 note : untuk step 5 dan 6 maaf saya tidak bisa ambil gambar nya soalnya windows exploler bakal close.
 <br>

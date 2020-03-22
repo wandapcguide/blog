@@ -8,11 +8,11 @@ comments: true
 okey in this article, i wanna show you how to make your ncmpcpp look beauty like your girlfriend. that its how to show album arts on ncmpcpp, its possible to show casue you don't need again album text statement. but, now you can look album picture when your play music on ncmpcpp.
 
 this my ncmpcpp
-<center><img class="special-img-class" src="/albumart-ncmpcpp/1.png" /></center>
+{{< image src="/albumart-ncmpcpp/1.png" position="center" style="border-radius: 8px;" >}}
 
 okey lets move into step.
 
-<p>1. copy this scritp into your ~/.ncmpcpp/config</p>
+1. copy this scritp into your ~/.ncmpcpp/config
 
 ```
 % egrep -v '^#' .ncmpcpp/config
@@ -131,7 +131,7 @@ song_status_format = "$b$7♫ $2%a $4⟫$3⟫ $8%t $4⟫$3⟫ $5%b "
 
 song_window_title_format = " {%a} - {%t}"
 ```
-<p>2. and copy this code and save as art.sh to ~/ncmpcpp and making that script is executable by use that command chmod +x art.sh</p>
+2. and copy this code and save as art.sh to ~/ncmpcpp and making that script is executable by use that command chmod +x art.sh
 
 ```
 #!/bin/bash
@@ -192,17 +192,17 @@ function reset_background
 
 } &
 ```
-<p>3. in the art.sh look into MUSIC_DIR line and set the variable to your music dir. example:</p>
+3. in the art.sh look into MUSIC_DIR line and set the variable to your music dir. example:
 
 ```
  MUSIC_DIR=/media/dante/deb/Sounds/
 ```
 
-<p>4. assure, you have a album art picture in your music dir . i suggest, to make sub folder for your music with same album. like this, and dont forget to rename your picture album to cover.jpg</p>
+4. assure, you have a album art picture in your music dir . i suggest, to make sub folder for your music with same album. like this, and dont forget to rename your picture album to cover.jpg
 
 <center><img class="special-img-class" src="/albumart-ncmpcpp/2.png" /></center>
 
-<p>5. the dependecies you must have is mpc and imagemagick. at here i use 6601 port on my mpc and mpd, so you can change it to your port how much you use</p>
+5. the dependecies you must have is mpc and imagemagick. at here i use 6601 port on my mpc and mpd, so you can change it to your port how much you use
 
 and bingo, if you got flick on urxvt just adjust the geometry.
 

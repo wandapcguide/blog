@@ -5,7 +5,7 @@ draft: false
 comments: true
 ---
 hello guys, apa kabar nya ? semoga sehat selalu ya. hari ini saya ingin berbagi sesuatu tentang linux nih, apakah kalian dual boot dengan windows ? pernah gak sih kalian mengalami hal error mounting ? nah kalau pernah maka pas sekali. karena disini saya ingin membahas hal tersebut.
-<br> <center> <img class="special-img-class" src="/eror_mounting/1.png" /></center> <br>
+{{< image src="/eror_mounting/1.png" alt="Hello Friend" position="center" style="border-radius: 8px;" >}}
 
 failed to mount blablabla please resume and shutdown windows fully (no hibernation or fast restarting) kenapa hal demikian dapat terjadi ? karena setau saya pada windows 10 itu shutdown nya tidak benar benar shutdown melainkan hibernation, mengapa demikian ? pada windows 10 terdapat fitur fastboot yang sebernarnya fitur tersebut di perkenal kan pada windows 8 yang dimana fitur fastboot tersebut mencampurkan proses shutdown dengan proses hibernasi dan oleh seba b itu pc dengan windows 10 booting nya lebih cepat ketimbang windows 7.
 <br>

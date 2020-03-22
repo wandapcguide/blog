@@ -28,7 +28,7 @@ cara ini berguna bagi kalian semua baik anak smk untuk mata pelajaran nya, atau 
 
 >lalu klik ok
 
-<p>4. lalu kita membuat mangle yaitu di menu ip > firewall </p>
+4. lalu kita membuat mangle yaitu di menu ip > firewall 
 
 lalu klik pada tab mangle, karena di konfigurasi ini kita masih berhubungan dengan mangle dan queue tree. dan buat lah 2 mangle seperti dibawah ini
 
@@ -62,7 +62,7 @@ lalu klik pada tab mangle, karena di konfigurasi ini kita masih berhubungan deng
 
 >lalu klik ok
 
-<p>5. lalu untuk memanggil mangle tersebut kita memerlukan queue tree</p>
+5. lalu untuk memanggil mangle tersebut kita memerlukan queue tree
 
 lalu kita ke menu queue > queue tree
 dan buat queue tree seperti ini
@@ -77,13 +77,13 @@ dan buat queue tree seperti ini
 
 >lalu klik ok
 
-<p>6. sudah selesai untuk konfigurasi limit ekstensi nya langkah terakhir adalah uji coba nya, silakan kalian untuk download file sesuai apa yang anda konfigurasi kan tadi. Apakah indikator pada queue tree berjalan ? jika berjalan sepert gambar dibawah ini maka anda berhasil melakukan setting atau konfigurasi limit ekstensi nya</p>
+6. sudah selesai untuk konfigurasi limit ekstensi nya langkah terakhir adalah uji coba nya, silakan kalian untuk download file sesuai apa yang anda konfigurasi kan tadi. Apakah indikator pada queue tree berjalan ? jika berjalan sepert gambar dibawah ini maka anda berhasil melakukan setting atau konfigurasi limit ekstensi nya
 
-<center><img class="special-img-class" src="/limit-ekstensi/1.png" /></center>
+{{< image src="/limit-ekstensi/1.png" position="center" style="border-radius: 8px;" >}}
 
-<p>7. lebih berhasil lagi apa bila download dibatalkan maka indikator tidak berjalan seprti ini. maka anda telah sukses sepenuh nya dalam mengkonfigurasi limit ekstensi bedasarkan file.</p>
+7. lebih berhasil lagi apa bila download dibatalkan maka indikator tidak berjalan seprti ini. maka anda telah sukses sepenuh nya dalam mengkonfigurasi limit ekstensi bedasarkan file.
 
-<center><img class="special-img-class" src="/limit-ekstensi/2.png" /></center>
+{{< image src="/limit-ekstensi/2.png" position="center" style="border-radius: 8px;" >}}
 
 note : hanya berlaku situs downlod atau hosting yang masih berbasis http jadi jika kalia mendownload di situs atau site hosting file yang https tidak akan jalan
 

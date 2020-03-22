@@ -21,7 +21,8 @@ we wanna fetching information about :
 7. music
 8. icon for this item
 
-<p>1. fetching the date</p>
+now we can start.
+1. fetching the date
 
 we would use date command to print out that
 
@@ -29,7 +30,7 @@ we would use date command to print out that
 date '+%d %b' #this print day number of the month and month
 ```
 
-<p>2. ssid of wifi</p>
+2. ssid of wifi
 
 we would use iwgetid command to make simply setup but powerfull. let's se bellow
 
@@ -37,7 +38,7 @@ we would use iwgetid command to make simply setup but powerfull. let's se bellow
 iwgetid -r  # it just print the ssid no other
 ```
 
-<p>3. battery</p>
+3. battery
 
 its important to avoid the low battery status and urged you to chare your laptop. i use acpi command to make it simple
 
@@ -45,7 +46,7 @@ its important to avoid the low battery status and urged you to chare your laptop
 acpi | cut -d, -f2 #its only  print battery level
 ```
 
-<p>4. sound level</p>
+4. sound level
 
 sound level can print into two type of output. can be proggesbar and can be text. if you wanna proggressbar use mkb and if you want text lets follow me.
 we use amixer command.
@@ -54,7 +55,7 @@ we use amixer command.
 amixer get master | grep "Front Left:" | awk '{print $5}' | cut -d [ -f2 | cut -d ] -f1 # its only print sound level
 ```
 
-<p>5. clock</p>
+5. clock
 
 as same as with date we use date command
 
@@ -62,7 +63,7 @@ as same as with date we use date command
 date '+%H:%M'
 ```
 
-<p>6. window active status</p>
+6. window active status
 
 window active status only print the name of focused window not like panel clickable and print the name. we use xdotool command
 
@@ -70,7 +71,7 @@ window active status only print the name of focused window not like panel clicka
 xdotool getwindowfocus getwindowname
 ```
 
-<p>7. music</p>
+7. music
 
 we use mpd and mpc command to print the listening music status
 
@@ -78,7 +79,7 @@ we use mpd and mpc command to print the listening music status
 mpc -p 6601 -f "%artist% >> %title%" | head -1
 ```
 
-<p>8. icon for this item</p>
+8. icon for this item
 
 you must install siji font to get icon for this ouput and to make more beautiful setup of bar.
 if you already install that font let's follow
@@ -176,7 +177,7 @@ esac
  sudo mv statusquh /usr/local/bin
 ```
 
-<p>2. now then, for left lemonbar</p>
+2. now then, for left lemonbar
 
 ```
 $vim kiri
@@ -218,7 +219,7 @@ esac
 
 >save it, and move into /usr/local/bin
 
-<p>3. and this for right lemonbar</p>
+3. and this for right lemonbar
 
 ```
 $vim kanan
@@ -260,7 +261,7 @@ esac
 
 >save it and move into /usr/local/bin
 
-<p>5. for lemonbar to print out that</p>
+5. for lemonbar to print out that
 
 ```
 $vim barkiri
@@ -286,7 +287,7 @@ $barkanan
 
 the result is like this
 
-<center><img class="special-img-class" src="/conf-lemonbar/1.png" /></center>
+{{< image src="/conf-lemonbar/1.png" position="center" style="border-radius: 8px;" >}}
 
 
 if you want find much more about lemonbar configuration or my dotfile just visit my github page > dante08

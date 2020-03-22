@@ -26,15 +26,15 @@ $sudo go-mtpfs -allow-other /media/andromtp
 
 jika di ponsel mu ada notifikasi meminta izin seperti gambar dibawah ini klik izinkan lalu mount kembali melalui terminal
 
-<center><img class="special-img-class" src="/mtp/1.png" /></center>
+{{< image src="/mtp/1.png" position="center" style="border-radius: 8px;" >}}
 
 lalu di terminal akan terlihat gambar seperti dibawah ini
 
-<center><img class="special-img-class" src="/mtp/2.png" /></center>
+{{< image src="/mtp/2.png" position="center" style="border-radius: 8px;" >}}
 
 lalu buka file eksplorer seperti thunar dan coba klik andromtp apakah bisa sekarang ? jika bisa maka akan seperti gambar dibawah ini
 
-<center><img class="special-img-class" src="/mtp/3.png" /></center>
+{{< image src="/mtp/3.png" position="center" style="border-radius: 8px;" >}}
 
 pada gambar diatas saya membuat direktori dengan nama j5prime, perlu diingat sebelum mencabut ponsel android mu alangkah baiknya ikuti step nomor 4
 

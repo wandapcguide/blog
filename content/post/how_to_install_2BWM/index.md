@@ -7,7 +7,7 @@ comments: true
 
 hi guys. now, i wanna update my tutorial about 2bwm. maybe you little bit confusion about tutorial how to install 2bwm especially on ubuntu. now, i wanna change into easy step. this is how to install 2bwm, lets follow!
 
-<p>1. Installing library</p>
+1. Installing library
 
 >xcb-randr: libxcb-randr0-dev
 
@@ -26,14 +26,14 @@ sudo apt-get install libxcb-xrm-dev
 ```
 >optional: gcc
 
-<p>2. installing 2bwm</p>
+2. installing 2bwm
 ```
 $ git clone git://github.com/venam/2bwm.git
 $ cd 2bwm
 $ make
 # make install
 ```
-<p>3. add 2bwm into login session</p>
+3. add 2bwm into login session
 make file desktop entries with name 2bwm.desktop at /usr/share/xsession/
 and copy this code into your desktop entries file
 
@@ -47,14 +47,14 @@ Type=Application
 ```
 and save it!
 
-<p>4. Testing 2bwm</p>
+4. Testing 2bwm
 after complete the installation run this code on the terminal
 ```
 $sudo service lightdm restart
 ```
 note: if you use lightdm
 
-<p>5. what ? the desktop entries dont show after i made desktop entries file above!</p>
+5. what ? the desktop entries dont show after i made desktop entries file above!
 you can install 2bwm form this git://github.com/Dante08/2bwm.git  how to? its same step at above..
 ```
 $git clone git://github.com/Dante08/2bwm.git

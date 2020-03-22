@@ -40,7 +40,7 @@ passthrought : centang
 
 >lalu klik ok
 
-<p>4. untuk mangle sudah selesai, sekarang menuju queue tree nya. untuk queue tree kita juga membuat dua yaitu untuk upload dan download dengan konfigurasi seperti dibawah ini</p>
+4. untuk mangle sudah selesai, sekarang menuju queue tree nya. untuk queue tree kita juga membuat dua yaitu untuk upload dan download dengan konfigurasi seperti dibawah ini
 
 >klik pada menu queue > queue tree lalu klik tombol add (+) untuk menambahkan queue tree upload
 >dan lakukan seperti dibawah ini
@@ -65,7 +65,7 @@ max limit : 1024k atau sesuai kbm dan keinginan kalian
 
 >lalu klik ok
 
-<p>5. sudah selesai untuk konfigurasi queue tree nya langkah terakhir adalah uji coba nya, silakan kalian untuk streaming, browsing dll. Apakah indikator pada queue tree berjalan ? jik berjalan sepert gambar dibawah ini maka anda berhasil melakukan setting atau konfigurasi queue tree nya</p>
+5. sudah selesai untuk konfigurasi queue tree nya langkah terakhir adalah uji coba nya, silakan kalian untuk streaming, browsing dll. Apakah indikator pada queue tree berjalan ? jik berjalan sepert gambar dibawah ini maka anda berhasil melakukan setting atau konfigurasi queue tree nya
 
 
 nah, begitu cara setting atau konfigurasi bandwith management dengan queue tree. semoga bermanfaat, jangan lupa untuk tinggalkan komentar jika ada saran, masukan, trouble kita bahas bersama di komentar, dll. sekian dari saya sampai jumpa di tutor berikut nya sampai  jumpa dan terimakasih :D

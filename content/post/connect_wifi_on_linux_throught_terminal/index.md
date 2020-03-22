@@ -7,7 +7,7 @@ comments: true
 
 hi sobat, apa kabar ? semoga sehat semua ya. oke malam ini saya akan memberikan tips tentang menghubungkan wifi atau connect wifi melalui terminal dengan cara yang simple pastinya. hal ini berguna ketika anda sedang menggunakan linux kalian pada mode TTY atau non-gui atau bahkan gui tapi menggunakan window manager tanpa ada tray icon wifi alias tidak menginstall panel seperti tint2, gnome-panel, dll. oke berikut langkah nya.
 
-<p>1. pada TTY mode atau terminal ketikan teks di bawah ini</p>
+1. pada TTY mode atau terminal ketikan teks di bawah ini
 
 ```
 nmcli dev wifi connect ESSID_NAME password ESSID_PASSWORD
@@ -23,9 +23,9 @@ untuk melihat jaringan wifi disekitar mu bisa dengan mengetikan.
 nmcli dev wifi
 ```
 
-<p>2. tunggu sebentar hingga proses penyambungan selesai.</p>
+2. tunggu sebentar hingga proses penyambungan selesai.
 
-<p>3. jika connect cek dengan mengetikan ini</p>
+3. jika connect cek dengan mengetikan ini
 ```
 iwgetid -r
 ```
