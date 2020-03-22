@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="hi guys, apa kabar ? semoga sehat selalu yah. pernah gak sih kalian mengalami ketika usb di masukan terbaca di pc yang run Debian sebagai OS nya dan ketika menyambungkan ponsel android sebagai media transfer data atau tersambung sebagai mtp devices tetapi di pc tersebut tidak terbaca bahkan tidak termount padahal terdapat notifikasi MTP pada android kita ?
+nah kali ini saya akan membagikan solusinya nih, asalkan distro yang kalian gunakan support dengan FUSE dan mungkin ada sedikit perbedaan." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="http://wandapcguide.github.io/post/cara_mengatasi_mtp_tidak_terdeteksi_pada_debian9/" />
+
+
+    <title>
+        
+            Cara mengatasi mtp tidak terdeteksi pada debian9 :: wandapcguide 
+        
+    </title>
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.min.73f55a8d452be4a71b2960620b80252cf69abd84d63fe7501abf0a39b1a70a78.css">
+
+
+
+
+<meta itemprop="name" content="Cara mengatasi mtp tidak terdeteksi pada debian9">
+<meta itemprop="description" content="hi guys, apa kabar ? semoga sehat selalu yah. pernah gak sih kalian mengalami ketika usb di masukan terbaca di pc yang run Debian sebagai OS nya dan ketika menyambungkan ponsel android sebagai media transfer data atau tersambung sebagai mtp devices tetapi di pc tersebut tidak terbaca bahkan tidak termount padahal terdapat notifikasi MTP pada android kita ?
+nah kali ini saya akan membagikan solusinya nih, asalkan distro yang kalian gunakan support dengan FUSE dan mungkin ada sedikit perbedaan.">
+<meta itemprop="datePublished" content="2018-05-10T23:02:13&#43;07:00" />
+<meta itemprop="dateModified" content="2018-05-10T23:02:13&#43;07:00" />
+<meta itemprop="wordCount" content="405">
+<meta itemprop="image" content="http://wandapcguide.github.io"/>
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://wandapcguide.github.io"/>
+
+<meta name="twitter:title" content="Cara mengatasi mtp tidak terdeteksi pada debian9"/>
+<meta name="twitter:description" content="hi guys, apa kabar ? semoga sehat selalu yah. pernah gak sih kalian mengalami ketika usb di masukan terbaca di pc yang run Debian sebagai OS nya dan ketika menyambungkan ponsel android sebagai media transfer data atau tersambung sebagai mtp devices tetapi di pc tersebut tidak terbaca bahkan tidak termount padahal terdapat notifikasi MTP pada android kita ?
+nah kali ini saya akan membagikan solusinya nih, asalkan distro yang kalian gunakan support dengan FUSE dan mungkin ada sedikit perbedaan."/>
+
+
+
+
+
+    <meta property="article:published_time" content="2018-05-10 23:02:13 &#43;0700 WIB" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd /home/wanda_blog</span>
+            <span class="logo__cursor" style=""></span>
+        
+    </div>
+</a>
+
+	
+	
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="http://wandapcguide.github.io/about">About</a></li><li><a href="http://wandapcguide.github.io/post">Blog</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="http://wandapcguide.github.io/post/cara_mengatasi_mtp_tidak_terdeteksi_pada_debian9/">Cara mengatasi mtp tidak terdeteksi pada debian9</a></h2>
+
+            
+
+            <div class="post-content">
+                <p>hi guys, apa kabar ? semoga sehat selalu yah. pernah gak sih kalian mengalami ketika usb di masukan terbaca di pc yang run Debian sebagai OS nya dan ketika menyambungkan ponsel android sebagai media transfer data atau tersambung sebagai mtp devices tetapi di pc tersebut tidak terbaca bahkan tidak termount padahal terdapat notifikasi MTP pada android kita ?</p>
+<p>nah kali ini saya akan membagikan solusinya nih, asalkan distro yang kalian gunakan support dengan FUSE dan mungkin ada sedikit perbedaan. disini saya menggunakan Debian 9 sebagai OS pada pc saya jika ada perbedaan depedencies harap disesuaikan terhadap distro masing masing ya mungkin saja hanya beda nama packet, baik kita langsung saja ke caranya.</p>
+<p>1 install terlebih dulu depedencies atau packet nya</p>
+<pre><code>#apt-get install libmtp-common go-mtpfs mtp-tools
+</code></pre><p>2 lalu buatlah direktori untuk membuat mount point untuk ponsel android yang ingin kita gunakan, dan beri akses pada direktori tersebut</p>
+<pre><code>#mkdir /media/andromtp
+
+#chmod 775 /media/andromtp
+</code></pre><p>3 kemudian masukan ponsel mu dan mount melalui terminal</p>
+<pre><code>$sudo go-mtpfs -allow-other /media/andromtp
+</code></pre><p>jika di ponsel mu ada notifikasi meminta izin seperti gambar dibawah ini klik izinkan lalu mount kembali melalui terminal</p>
+<!-- raw HTML omitted -->
+<p>lalu di terminal akan terlihat gambar seperti dibawah ini</p>
+<!-- raw HTML omitted -->
+<p>lalu buka file eksplorer seperti thunar dan coba klik andromtp apakah bisa sekarang ? jika bisa maka akan seperti gambar dibawah ini</p>
+<!-- raw HTML omitted -->
+<p>pada gambar diatas saya membuat direktori dengan nama j5prime, perlu diingat sebelum mencabut ponsel android mu alangkah baiknya ikuti step nomor 4</p>
+<p>4 untuk unmountin kita ketikan ini</p>
+<pre><code>$sudo umount /media/andromtp
+</code></pre><p>5 agar kalian tidak menulis sudo go-mtpfs &hellip;&hellip;.. lagi dan lagi maka ikuti langkah ini</p>
+<pre><code>$sudo visudo (tambahkan line ini)
+user ALL=(ALL) NOPASSWD: /usr/bin/go-mtpfs -allow-other /media/andromtp
+user ALL=(ALL) NOPASSWD: /bin/umount /media/andromtp
+</code></pre><p>dan ketikan lagi dibawah ini:</p>
+<pre><code>$vim .bashrc (tambahkan line ini dibagian aliases)
+alias mount-mtp='sudo /usr/bin/go-mtpfs -allow-other /media/andromtp'
+alias unmount-mtp='sudo /bin/umount /media/androku'
+</code></pre><p>kemudian anda bisa menjalankan nya tanpa mengisi password root dan dengan kalimat sedikit hanya dengan mengetikan
+mount-mtp = untuk mounting ponsel android melalui terminal, dan
+unmount-mtp = untuk unmounting ponsel android melalui terminal</p>
+<p>note : pada visudo user diganti dengan nama user kalian di OS yang kalian pake</p>
+<p>mudah bukan ? , seperti yang saya sebutkan ada sedikit perbedaan di beberapa distro untuk nama packet nya jadi keep-on-eyes yah btw kalo step mount dan unmount nya sama saja yang membedakan hanyalah masalah di packet nya tadi. jika ada yang salah mohon dikoreksi dan apabila ada yang ingin ditanyakan silakan komentar dibawah ini, jaga kesopanan agar tertib sekian terimakasih..</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+  			</div>
+
+        
+          <div id="comments" class="thin">
+      		    <script src="https://utteranc.es/client.js"
+        repo="wandapcguide/wandapcguide.github.io"
+        issue-term="pathname"
+        label="Comment"
+        theme="photon-dark"
+        crossorigin="anonymous"
+        async>
+</script>
+
+      		</div>
+        
+	
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+            <span>wanda agustiyansyah</span>
+            <span> <a href="http://wandapcguide.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/rhazdon">rhazdon</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.2d5469329143160ae2456a69c3c76dc2d0a3b212b46afe291a51bd68650ed6f8697e001dab54f1c272c77ce08092a8c55e5bb4314e0ee334aab4b927ec896638.js" integrity="sha512-LVRpMpFDFgriRWppw8dtwtCjshK0av4pGlG9aGUO1vhpfgAdq1TxwnLHfOCAkqjFXlu0MU4O4zSqtLkn7IlmOA=="></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-154716895-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+
+    </body>
+</html>
