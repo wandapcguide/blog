@@ -1,5 +1,5 @@
 ---
-title: "Cara membuat bootable dan multi bootable dengan mudah dengan Ventoy"
+title: "Cara membuat bootable dan multi bootable dengan mudah menggunakan Ventoy"
 date: 2020-05-19T06:44:31+07:00
 draft: false
 comments: true
