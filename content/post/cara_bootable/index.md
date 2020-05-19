@@ -14,10 +14,15 @@ Ventoy ini merupakan tool opensource yang digunakan untuk membuat bootable ISO f
 <br>
 
 Berikut keunggulan ventoy diantaranya:
+
 ● 100% opensource
+
 ● simple to use
+
 ● suport Legacy+UEFI
+
 ● direct boot melalui ISO file dan tak perlu di ekstak.
+
 ● ISO file dengan ukuran lebih dari 4GB support.
 
 Dan masih banyak lagi, serta Hal yang menarik saya untuk membuat artikel ini adalah dengan keunggulan direct boot nya yang membuat kita semua menjadi mudah untuk membuat bootabe, sehingga tak perlu repot dan menghemat umur flashdrive itu sendiri.
@@ -30,7 +35,7 @@ Cara menggunakan ventoy sangatlah gampang sekali, dan saya sangat merekomendasik
 4. Laly klik INSTALL jika muncul prompt untuk memformat flashdisk klik yes jika muncul lagi klik yes lagi. Unik nya ventoy ini jika ada versi terbaru kalian tidak peru memformat ulang flashdisk kalian hanya klik update saja.
 {{< image src="/ventoy/2.jpg" alt="ventoy" position="center" style="border-radius: 8px;" >}}
 5. Lalu tunggu installasi selesai
-6. Jika sudah nanti kalian akan melihat isi dari flashdisk kalian kosong lalu kalian bisa mengcopy ISO file kalian kedalam fashdisk tersebut, kalian dapat mengcopy file nya bebas dalam flashdisk tersebut di folder manapun nanti si ventoy nya akan mendeteksi otomatis letak ISO file didalam flashdisk tersebut.
+6. Jika sudah nanti kalian akan melihat isi dari flashdisk kalian kosong dan nama nya pun berganti menjadi ventoy lalu kalian bisa mengcopy ISO file kalian kedalam fashdisk tersebut, kalian dapat mengcopy file nya bebas dalam flashdisk tersebut di folder manapun nanti si ventoy nya akan mendeteksi otomatis letak ISO file didalam flashdisk tersebut.
 {{< image src="/ventoy/3.png" alt="ventoy" position="center" style="border-radius: 8px;" >}}
 7. Dan here we go.. Masuklah boot option jika sukses maka tampilan akan seperti ini
 {{< image src="/ventoy/4.jpg" alt="ventoy" position="center" style="border-radius: 8px;" >}}
