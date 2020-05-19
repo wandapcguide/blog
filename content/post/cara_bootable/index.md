@@ -29,7 +29,7 @@ Dan masih banyak lagi, serta Hal yang menarik saya untuk membuat artikel ini ada
 <br>
 
 Cara menggunakan ventoy sangatlah gampang sekali, dan saya sangat merekomendasikan tool ini karena cocok untuk kalangan pro dan juga pemula. Baiklah, berikut dibawah ini cara cara nya :
-1. Download ventoy sesuai OS yang anda gunakan sekarang. (Kebetulan Saya menggunakan windows jadi jika anda menggunakan linux tinggal ikuti saja instruksi pada cli nya nanti karena file pada linux berekstensi .sh di windows nya juga mudah sekali jadi pada linux nya juga mudah hanya berbasis cli saja) 
+1. Download ventoy sesuai OS yang anda gunakan sekarang [DISINI](https://www.ventoy.net/en/download.html). (Kebetulan Saya menggunakan windows jadi jika anda menggunakan linux tinggal ikuti saja instruksi pada cli nya nanti karena file pada linux berekstensi .sh di windows nya juga mudah sekali jadi pada linux nya juga mudah hanya berbasis cli saja) 
 2. Ekstrak file ventoy nya
 3. Kemudian cari file Ventoy2Disk.exe (Ventoy2Disk.sh kalau pada linux) pada folder hasil ekstrak tadi kemudian double klik file exe tersebut jika ada prompt yes atau no pilih saja yes karena ventoy ini butuh administrator untuk melakukan operasi nya (kalau di linux jalankan dengan ./Ventoy2Disk.sh)
 4. Laly klik INSTALL jika muncul prompt untuk memformat flashdisk klik yes jika muncul lagi klik yes lagi. Unik nya ventoy ini jika ada versi terbaru kalian tidak peru memformat ulang flashdisk kalian hanya klik update saja.
